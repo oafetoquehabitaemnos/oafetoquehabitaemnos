@@ -1,3 +1,10 @@
-h1 {
-    color:blue;
+// Globals definitions
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+// Helper classes
+.font-ludicrous {
+    font-family: 'ludicrous-regular' !important;
 }
