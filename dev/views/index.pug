@@ -1,25 +1,88 @@
 <!DOCTYPE html>
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title O afeto que habita em nós
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title O afeto que habita em nós
 
-        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
-        link(rel="stylesheet", href="dev/src/styles/css/application.css")
-        link(rel="stylesheet", href="dev/src/fonts/fonts.css")
-    body
-        .container
-            .alert.alert-success.text-center
-                h1.alert-heading.font-ludicrous O afeto que habita em nós 
-                p Em contrução
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+    link(rel="stylesheet", href="dev/src/styles/css/application.css")
+    link(rel="stylesheet", href="dev/src/fonts/fonts.css")
+  body
+    
+    main      
+      .jumbotron.main-call
+        //- navegação 
+        header
+          nav.navbar.navbar-expand-lg.navbar-light
+            a.navbar-brand(href='#') O Afeto 
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo02', aria-controls='navbarTogglerDemo02', aria-expanded='false', aria-label='Toggle navigation')
+              span.navbar-toggler-icon
+          #navbarTogglerDemo02.collapse.navbar-collapse
+            ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+              li.nav-item
+                a.nav-link(href='#') O evento
+                  span.sr-only
+              li.nav-item
+                a.nav-link(href='#') Palestrantes
+              li.nav-item
+                a.nav-link(href='#') Parceiros
+              li.nav-item
+                a.nav-link(href='#') Blog
 
-        footer
-            script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
-            script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
-            script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
-            script
-                include ../src/scripts/application.js
+            form.form-inline.my-2.my-lg-0
+              button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Ingresso
+        //- final navegação      
+        .container.text-center
+          span.title-work Workshop 
+          h1.text-center.title-oafeto O afeto que habita em nós
+          date.date.text-center 1º de setembro 2018 - Armação dos Búzios, RJ
+          button(type="button" class="btn btn-call") Compre agora
+            
+      .container
+        h2.inner-title O evento
+        
+        p.paragraph-sp Somos movidos por nossos afetos. Afetos estão em todas as partes. A partir deles nos posicionamos no mundo e escrevemos nossas histórias. 
+        p.paragraph-sp Diferentes abordagens reconhecem a importância dos afetos para o desenvolvimento do ser humano. Vínculos afetivos são constituídos no início de nossas vidas e estarão presentes ao longo de toda ela influenciando nossas formas de interação com o mundo. 
+        p.paragraph-sp Esse evento é o resultado de encontro de profissionais de diferentes linhas teóricas que têm o afeto como seu ponto de intercessão. 
+        p.paragraph-sp Em setembro, estaremos reunidos em Búzios para falarmos sobre a formação dos vínculos afetivos, os impactos produzidos pelos ambientes nas vivências emocionais, vivenciar afetos através da experiência do sensível e propor reescrever histórias a partir de reformulações afetivas. 
+        p.paragraph-sp Tudo isso para pensar a natureza dos vínculos e seus caminhos. 
+        p.paragraph-sp E claro, queremos que você se afete conosco. 
+        p.paragraph-sp Vem se afetar com a gente!
+        hr
+
+        h2.inner-title Palestrantes
+        .row
+          .col-md-4.staff-image
+            figure
+              img(src="dev/src/images/lp_afeto_palestrante_marco_aurelio.jpg", alt="")
+              figcaption 
+                h1.title Marco Aurélio Mendes
+                p Psicólogo (CRP 05/31952). Terapeuta Cognitivo Certificado pela Federação Brasileira de Terapias Cognitivas (FBTC). Certificação Avançada em Terapia Focada nas Emoções pela York University com Dr. Les Greenberg.
+                button(type="button" class="btn btn-primary") Ver mais
+          .col-md-4.staff-image
+            figure
+              img(src="dev/src/images/lp_afeto_palestrante_monica_gouveia.jpg", alt="")
+              figcaption 
+               h1.title Mônica Gouveia
+               p Psicóloga Clínica Existencial Cognitivista, Mestre em Psicologia Social, Master Universidad Camilo José Cela e Master IMF Business School em Neuropsicologia, Inteligências Múltiplas e Mindfulness (em curso).
+               button(type="button" class="btn btn-primary") Ver mais
+          .col-md-4.staff-image
+            figure
+              img(src="dev/src/images/lp_afeto_palestrante_marisa_mendes.jpg", alt="")  
+              figcaption 
+               h1.title Marisa Mendes
+               p Psicóloga Clínica (CRP 05/16481); Mestre em Psicologia Social (UGF); Especialista em Terapia pelo Movimento, Corpo e Subjetivação (Faculdade Angel Vianna);Especializanda em Transtornos Alimentares (PUC Rio).
+               button(type="button" class="btn btn-primary") Ver mais
+
+      .jumbotron.main-banner.font-ludicrous.text-center.d-flex
+          h2.align-self-center Somos movidos por nossos afetos. Afetos estão em todas as partes. A partir deles nos posicionamos no mundo e escrevemos nossas histórias.
+    footer
+      script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+      script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
+      script
+        include ../src/scripts/application.js
 
 

@@ -1,5 +1,107 @@
 * {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  color: #373737; }
+
+hr {
+  width: 565px;
+  height: 3px;
+  margin-top: 5rem;
+  border-top: 1px solid #dcdcdc; }
+
+.main-call {
+  min-height: 650px;
+  border-radius: 0;
+  background: url("../../images/lp_afeto_01.jpg") no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+  .main-call .title-work {
+    font-size: 32px;
+    letter-spacing: 22.9px;
+    display: block;
+    color: #363636;
+    text-align: center;
+    text-transform: uppercase; }
+  .main-call .title-oafeto {
+    font-family: 'ludicrous-regular' !important;
+    font-size: 100px;
+    line-height: 0.75;
+    letter-spacing: -2px;
+    color: #363636;
+    margin: 0.8rem 0 2rem 0; }
+  .main-call .date {
+    display: block;
+    font-size: 20px;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .main-call .btn.btn-call {
+    border-radius: 30px;
+    background-color: #89679b;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1.12rem;
+    padding: 0.6rem 5rem;
+    margin: 2.5rem;
+    color: #fff; }
+    .main-call .btn.btn-call:active, .main-call .btn.btn-call:hover, .main-call .btn.btn-call:focus {
+      background: #704e84 !important; }
+
+.main-banner {
+  min-height: 400px;
+  margin-top: 7rem;
+  border-radius: 0;
+  background: url(../../images/lp_afeto_02.jpg) no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+  .main-banner h2 {
+    font-size: 49px; }
+
+.staff-image figcaption {
+  font-size: 14px;
+  color: #4f4f4f;
+  margin: 0.8rem 0 0.2rem 0rem; }
+  .staff-image figcaption .title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #7b63a2; }
+  .staff-image figcaption .btn {
+    border-radius: 14px;
+    background-color: #fd8d5e;
+    font-size: 14px;
+    border: none;
+    padding: 0.3rem 1.5rem; }
 
 .font-ludicrous {
   font-family: 'ludicrous-regular' !important; }
+
+.paragraph-sp {
+  font-weight: 300;
+  font-size: 1.12em;
+  line-height: 23px; }
+
+.inner-title {
+  font-family: OpenSans;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8a689d;
+  position: relative;
+  padding-bottom: 1rem;
+  margin: 3rem 0; }
+  .inner-title::after {
+    content: "";
+    border-bottom: 1px solid #8a689d;
+    width: 177px;
+    height: 3px;
+    display: inline-block;
+    position: absolute;
+    bottom: -10px;
+    left: 42%; }
