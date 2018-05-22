@@ -2,6 +2,7 @@ let gulp        = require('gulp');
 let sass        = require('gulp-sass');
 let pug         = require('gulp-pug');
 let browserSync = require('browser-sync').create();
+let plumber     = require('gulp-plumber');
 
 
 let dirs = {
@@ -23,6 +24,7 @@ gulp.task('serve', ['sass'], function() {
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     return gulp.src(dirs.scss + '**/*.scss')
+        .pipe(plumber())
         .pipe(sass())
         .pipe(gulp.dest(dirs.css))
         .pipe(browserSync.stream());
