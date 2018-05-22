@@ -34,6 +34,7 @@ gulp.task('sass', function() {
 // Writer with .pug
 gulp.task('views', function buildHTML(){
     return gulp.src('dev/views/*.pug')
+        .pipe(plumber())
         .pipe(pug({
             pretty: true,
         }))

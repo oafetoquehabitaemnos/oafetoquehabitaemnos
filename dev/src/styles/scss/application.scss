@@ -1,13 +1,12 @@
 // Globals definitions
-* {
+body {
   font-family: 'Open Sans', sans-serif;
   color: #373737
 }
 
 hr {
   width: 565px;
-  height: 3px;
-  margin-top: 5rem;
+  margin-top: 4rem;
   border-top: 1px solid #dcdcdc;
 }
 
@@ -16,7 +15,6 @@ hr {
 // Components
 .main-call {
   min-height: 650px;
-  border-radius: 0;
   background: url("../../images/lp_afeto_01.jpg") no-repeat center;
   background-size: cover;
     -webkit-background-size: cover;
@@ -46,27 +44,12 @@ hr {
       letter-spacing: 3px;
       text-transform: uppercase;
     }
-    .btn.btn-call{
-      border-radius: 30px;
-      background-color: #89679b;
-      text-transform: uppercase;
-      border: none;
-      font-size: 1.12rem;
-      padding: 0.6rem 5rem;
-      margin: 2.5rem;
-      color: #fff;
-
-      &:active,&:hover,&:focus {
-        background: #704e84 !important;
-      }
-    }
 }
 
 
 .main-banner {
   min-height: 400px;
   margin-top: 7rem;
-  border-radius: 0;
   background: url(../../images/lp_afeto_02.jpg) no-repeat;
   background-size: cover;
     -webkit-background-size: cover;
@@ -81,9 +64,6 @@ hr {
 
 
 .staff-image {
-  figure {
-    // width: 250px;
-  }
   figcaption {
     font-size: 14px;
     color: #4f4f4f;
@@ -100,6 +80,41 @@ hr {
       border: none;
       padding: 0.3rem 1.5rem;
     }
+  }
+}
+
+.timer-banner {
+  background: linear-gradient(to right, #7b63a2, #8a689d);
+  margin-top: 7rem;
+  text-align: center;
+
+  .inner-title {
+    margin: 1rem 0;
+  }
+
+  .date-time {
+    font-size: 5.62rem;
+    font-weight: 800;
+    color: #c5afea;
+    span {
+      display: block;
+      font-size: 1.56rem;
+      font-weight: 300;
+      color: #fff;
+    }
+  }
+
+
+}
+
+// Address in home
+.hostel-address {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #8a689d !important;
+  font-weight: 300;
+  span {
+    font-weight: 700;
   }
 }
 
@@ -121,27 +136,48 @@ hr {
 .inner-title {
   font-family: OpenSans;
   font-size: 32px;
-  font-weight: 800;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  font-weight: 700;
   text-align: center;
   color: #8a689d;
-  position: relative;
   padding-bottom: 1rem;
   margin: 3rem 0;
-  &::after {
-    content: "";
-    border-bottom: 1px solid #8a689d;
-    width: 177px;
-    height: 3px;
-    display: inline-block;
-    position: absolute;
-    bottom: -10px;
-    left: 42%;
-
-  
+  // &::after {
+  //   content: "";
+  //   border-bottom: 1px solid #8a689d;
+  //   width: 177px;
+  //   height: 3px;
+  //   display: inline-block;
+  //   position: absolute;
+  //   bottom: -10px;
+  //   left: 42%;
+  // }
+  &.white {
+    color: #fff;
   }
 
+}
+
+
+// Buttons
+.btn.btn-call{
+  border-radius: 30px;
+  background-color: #89679b;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.12rem;
+  padding: 0.6rem 5rem;
+  margin: 2.5rem;
+  color: #fff;
+
+  &:active,&:hover,&:focus {
+    background: #704e84 !important;
+  }
+
+  &.orage {
+    background-color: #fd8d5e;
+
+    &:active,&:hover,&:focus {
+      background: #f9763e !important;
+    }
+  }
 }
