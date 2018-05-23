@@ -24,14 +24,13 @@
               <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ingresso</button>
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" formaction="google.com">Ingresso</button>
             </form>
           </div>
         </header>
         <div class="container text-center"><span class="title-work">Workshop </span>
-          <h1 class="text-center title-oafeto">O afeto que habita em nós</h1>
-          <date class="date text-center">1º de setembro 2018 - Armação dos Búzios, RJ</date>
-          <button class="btn btn-call" type="button">Compre agora</button>
+          <h1 class="text-center title-oafeto">O afeto que habita em nós!</h1>
+          <date class="date text-center">1º de setembro 2018 - Armação dos Búzios, RJ</date><a class="btn btn-call" href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank">Compre agora</a>
         </div>
       </div>
       <div class="container">
@@ -97,30 +96,29 @@
           <div class="col-md-3"> <img src="http://via.placeholder.com/250x150" alt=""/></div>
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid timer-banner">
+      <div class="jumbotron jumbotron-fluid timer-banner" id="js-timer-banner">
         <div class="container">
           <h2 class="inner-title white">Nosso workshop começa em</h2>
           <div class="row justify-content-lg-center justify-content-sm-center">
             <div class="col col-md-auto col-lg-2 col-12">
-              <div class="date-time">122<span>Dias</span></div>
+              <div class="date-time days"> </div>
             </div>
             <div class="col col-md-auto col-lg-2 col-6">
-              <div class="date-time">21<span>Horas</span></div>
+              <div class="date-time hours"></div>
             </div>
             <div class="col col-md-auto col-lg-2 col-6">
-              <div class="date-time">48<span>Minutos</span></div>
+              <div class="date-time minutes"></div>
             </div>
           </div>
-          <hr/>
-          <button class="btn btn-call orage" type="button">Compre agora</button>
+          <hr/><a class="btn btn-call orage" href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank">Compre agora</a>
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container-fluid"> 
         <div class="row">
           <div class="col-md-8">
-            <h3 class="font-ludicrous">O afeto que habita em nós</h3>
+            <h3 class="font-ludicrous">O afeto que habita em nós!</h3>
             <ul class="nav">
               <li class="nav-item"><a class="nav-link" href="http://">Palestrantes</a></li>
               <li class="nav-item"><a class="nav-link" href="http://">O evento</a></li>
@@ -140,7 +138,7 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <script>console.log("Ola mundo")</script>
+      <script src="dev/src/scripts/application.js"></script>
     </footer>
   </body>
 </html>

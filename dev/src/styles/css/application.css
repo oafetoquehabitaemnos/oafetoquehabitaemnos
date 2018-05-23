@@ -64,6 +64,7 @@ hr {
 .timer-banner {
   background: linear-gradient(to right, #7b63a2, #8a689d);
   margin-top: 7rem;
+  margin-bottom: 0;
   text-align: center; }
   .timer-banner .inner-title {
     margin: 1rem 0; }
@@ -76,6 +77,18 @@ hr {
       font-size: 1.56rem;
       font-weight: 300;
       color: #fff; }
+
+.footer {
+  background-color: #ededed;
+  padding: 2rem 0; }
+  .footer ul.nav .nav-link {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.47;
+    color: #363636;
+    text-transform: uppercase; }
+    .footer ul.nav .nav-link:first-child {
+      padding-left: 0; }
 
 .hostel-address {
   text-align: center;

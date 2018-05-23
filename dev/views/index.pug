@@ -32,13 +32,13 @@ html(lang="en")
                 a.nav-link(href='#') Blog
 
             form.form-inline.my-2.my-lg-0
-              button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Ingresso
+              button.btn.btn-outline-success.my-2.my-sm-0(type='submit' formaction="google.com") Ingresso
         //- final navegação      
         .container.text-center
           span.title-work Workshop 
           h1.text-center.title-oafeto O afeto que habita em nós!
           date.date.text-center 1º de setembro 2018 - Armação dos Búzios, RJ
-          button(type="button" class="btn btn-call") Compre agora
+          a(href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank" class="btn btn-call") Compre agora
             
       .container
         h2.inner-title O evento
@@ -99,23 +99,20 @@ html(lang="en")
           .col-md-3 
             img(src="http://via.placeholder.com/250x150", alt="")
 
-      .jumbotron.jumbotron-fluid.timer-banner
+      .jumbotron.jumbotron-fluid.timer-banner#js-timer-banner
         .container
           h2.inner-title.white Nosso workshop começa em
           .row.justify-content-lg-center.justify-content-sm-center
             .col.col-md-auto.col-lg-2.col-12
-              .date-time 122
-                span Dias
+              .date-time.days 
             .col.col-md-auto.col-lg-2.col-6
-              .date-time 21
-                span Horas
+              .date-time.hours
             .col.col-md-auto.col-lg-2.col-6
-              .date-time 48
-                span Minutos
+              .date-time.minutes
           hr
-          button(type="button" class="btn btn-call orage") Compre agora
+          a(href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank" class="btn btn-call orage") Compre agora
 
-    footer
+    footer.footer
       .container-fluid 
         .row
           .col-md-8
@@ -141,7 +138,7 @@ html(lang="en")
       script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
       script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
       script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
-      script
-        include ../src/scripts/application.js
+      script(src="dev/src/scripts/application.js")
+      
 
 
