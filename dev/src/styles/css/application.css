@@ -105,6 +105,9 @@ hr {
     text-transform: uppercase; }
     .footer ul.nav .nav-link:first-child {
       padding-left: 0; }
+    .footer ul.nav .nav-link i {
+      font-size: 2rem;
+      color: #7b63a2; }
 
 .hostel-address {
   text-align: center;
