@@ -15,24 +15,54 @@ html(lang="en")
       .jumbotron.jumbotron-fluid.main-call
         //- navegação 
         header
-          nav.navbar.navbar-expand-lg.navbar-light
-            a.navbar-brand(href='#') O Afeto 
-            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo02', aria-controls='navbarTogglerDemo02', aria-expanded='false', aria-label='Toggle navigation')
-              span.navbar-toggler-icon
-          #navbarTogglerDemo02.collapse.navbar-collapse
-            ul.navbar-nav.mr-auto.mt-2.mt-lg-0
-              li.nav-item
-                a.nav-link(href='#') O evento
-                  span.sr-only
-              li.nav-item
-                a.nav-link(href='#') Palestrantes
-              li.nav-item
-                a.nav-link(href='#') Parceiros
-              li.nav-item
-                a.nav-link(href='#') Blog
+          .container
+            nav.navbar.navbar-light.navbar-expand-lg.navbar-new
+              a.navbar-brand.d-lg-none.d-sm-block.font-ludicrous O afeto que habita em nós!
+              button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mx-lg-auto.mr-lg-5
+                  li.nav-item
+                    a.nav-link(href='#')
+                      | O evento
+                      span.sr-only (current)
+                  li.nav-item
+                    a.nav-link(href='#')
+                      | Palestrantes    
+                  li.nav-item
+                    a.nav-link(href='#')
+                      | Parceiros
+                  li.nav-item
+                    a.nav-link(href='#')
+                      | Blog
+                  li.nav-item
+                    a.btn.btn-outline.btn-ticket(href='#')
+                      | Ingressos
+            
+          
+          //- nav.navbar.navbar-expand-lg
+          //-   a.navbar-brand(href='#')
+          //-   button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          //-     span.navbar-toggler-icon
+          //-   #navbarSupportedContent.collapse.navbar-collapse
+          //-     ul.navbar-nav
+          //-       li.nav-item
+          //-         a.nav-link(href='#')
+          //-           | O evento
+          //-           span.sr-only (current)
+          //-       li.nav-item
+          //-         a.nav-link(href='#')
+          //-           | Palestrantes    
+          //-       li.nav-item
+          //-         a.nav-link(href='#')
+          //-           | Parceiros
+          //-       li.nav-item
+          //-         a.nav-link(href='#')
+          //-           | Blog
+          //-       li.nav-item
+          //-         a.btn.btn-outline-success(href='#')
+          //-           | Blog
 
-            form.form-inline.my-2.my-lg-0
-              button.btn.btn-outline-success.my-2.my-sm-0(type='submit' formaction="google.com") Ingresso
         //- final navegação      
         .container.text-center
           span.title-work Workshop 

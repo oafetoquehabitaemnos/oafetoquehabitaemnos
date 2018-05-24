@@ -3,12 +3,27 @@ body {
   color: #373737; }
 
 hr {
-  width: 565px;
   margin-top: 4rem;
   border-top: 1px solid #dcdcdc; }
 
+.navbar-new {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 2rem 0; }
+  .navbar-new .navbar-nav .nav-link {
+    color: #ffffffbd;
+    margin-right: 5rem; }
+    .navbar-new .navbar-nav .nav-link:hover, .navbar-new .navbar-nav .nav-link:active, .navbar-new .navbar-nav .nav-link:focus {
+      color: #FD8D59; }
+  .navbar-new .navbar-brand {
+    font-size: 1.3rem; }
+  .navbar-new .navbar-toggler {
+    border: none; }
+
 .main-call {
   min-height: 650px;
+  padding-top: 0;
   background: url("../../images/lp_afeto_01.jpg") no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -20,7 +35,8 @@ hr {
     display: block;
     color: #363636;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 2rem; }
   .main-call .title-oafeto {
     font-family: 'ludicrous-regular' !important;
     font-size: 100px;
@@ -132,3 +148,12 @@ hr {
     background-color: #fd8d5e; }
     .btn.btn-call.orage:active, .btn.btn-call.orage:hover, .btn.btn-call.orage:focus {
       background: #f9763e !important; }
+
+.btn.btn-ticket {
+  border: solid 2px #FD8D59;
+  color: #FD8D59;
+  border-radius: 25px;
+  min-width: 150px; }
+  .btn.btn-ticket:hover {
+    background: #FD8D59;
+    color: #fff; }
