@@ -1,6 +1,6 @@
 // Globals definitions
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif  !important;
   color: #373737
 }
 
@@ -177,7 +177,6 @@ hr {
 
 
 .inner-title {
-  font-family: OpenSans;
   font-size: 32px;
   font-weight: 700;
   text-align: center;

@@ -18,12 +18,10 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
+  // Display the result in the elements
 
   document.querySelector("#js-timer-banner .days").innerHTML = days + "<span>Dias</span>";
-
   document.querySelector("#js-timer-banner .hours").innerHTML = hours + "<span>Horas</span>";
-
   document.querySelector("#js-timer-banner .minutes").innerHTML = minutes + "<span>Minutos</span>";
 
   // If the count down is finished, write some text 
