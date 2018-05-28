@@ -1,0 +1,24 @@
+@media only screen and (max-width: 992px){
+  html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .header {
+    background-color: #704e84f5;
+    color: #fff;
+      
+    .navbar-new {
+      text-align: center;
+      padding: 1rem 0;
+      a.nav-link {
+        margin-right: 0;
+      }
+      .navbar-brand {
+        font-size: 1.1rem;
+      }
+      .btn-ticket {
+        width: 100%
+      }
+    }
+  }
+}
