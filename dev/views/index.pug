@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title O afeto que habita em nós
-
-    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
-    link(rel="stylesheet", href="dev/src/styles/css/application.css")
-    link(rel="stylesheet", href="dev/src/fonts/fonts.css")
-    link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.0.13/css/all.css")
+  include includes/head.pug
   body
     
     main      
@@ -118,31 +109,8 @@ html(lang="en")
           hr
           a(href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank" class="btn btn-call orage") Compre agora
 
-    footer.footer
-      .container-fluid 
-        .row
-          .col-md-8
-            h3.font-ludicrous O afeto que habita em nós!
-            ul.nav
-              li.nav-item
-                a(href="http://" class="nav-link") O evento
-              li.nav-item
-                a(href="http://" class="nav-link") Palestrantes
-              li.nav-item
-                a(href="http://" class="nav-link") Blog
-              li.nav-item
-                a(href="http://" class="nav-link") Contato
-          .col-md-4
-            ul.nav.d-flex.justify-content-end
-              li.nav-item
-                a(href="https://www.facebook.com/oafetoquehabitaemnos/" class="nav-link") <i class="fab fa-facebook"></i>
-              li.nav-item
-                a(href="https://www.instagram.com/oafetoquehabitaemnos/)" class="nav-link") <i class="fab fa-instagram"></i>
-
-      script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
-      script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
-      script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
-      script(src="dev/src/scripts/application.js")
+    include includes/footer.pug
+    
       
 
 
