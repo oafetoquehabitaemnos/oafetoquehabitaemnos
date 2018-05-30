@@ -1,116 +1,89 @@
-<!DOCTYPE html>
-html(lang="en")
-  include includes/head.pug
-  body
+include includes/head.pug
+body
+  main      
+  .jumbotron.jumbotron-fluid.main-call        
+    +nav("index.html")
     
-    main      
-      .jumbotron.jumbotron-fluid.main-call
-        //- navegação 
-        header.header
-          .container
-            nav.navbar.navbar-dark.navbar-expand-lg.navbar-new
-              a.navbar-brand.d-lg-none.d-sm-block.font-ludicrous O afeto que habita em nós!
-              button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
-                span.navbar-toggler-icon
-              #navbarSupportedContent.collapse.navbar-collapse
-                ul.navbar-nav.mx-lg-auto.mr-lg-5
-                  li.nav-item
-                    a.nav-link(href='#')
-                      | O evento
-                      span.sr-only (current)
-                  li.nav-item
-                    a.nav-link(href='#')
-                      | Palestrantes    
-                  li.nav-item
-                    a.nav-link(href='#')
-                      | Parceiros
-                  li.nav-item
-                    a.nav-link(href='#')
-                      | Blog
-                  li.nav-item
-                    a.btn.btn-outline.btn-ticket(href='https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123' target="_blank")
-                      | Ingressos
-        //- final navegação      
-        section.container.text-center
-          span.title-work Workshop 
-          h1.text-center.title-oafeto O afeto que habita em nós!
-          date.date.text-center 1º de setembro 2018 - Armação dos Búzios, RJ
-          a(href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank" class="btn btn-call") Compre agora
-            
-      section.container
-        h2.inner-title O evento
+    section.container.text-center
+      span.title-work Workshop 
+      h1.text-center.title-oafeto O afeto que habita em nós!
+      date.date.text-center 1º de setembro 2018 - Armação dos Búzios, RJ
+      a(href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank" class="btn btn-call") Compre agora
         
-        p.paragraph-sp Somos movidos por nossos afetos. Afetos estão em todas as partes. A partir deles nos posicionamos no mundo e escrevemos nossas histórias. 
-        p.paragraph-sp Diferentes abordagens reconhecem a importância dos afetos para o desenvolvimento do ser humano. Vínculos afetivos são constituídos no início de nossas vidas e estarão presentes ao longo de toda ela influenciando nossas formas de interação com o mundo. 
-        p.paragraph-sp Esse evento é o resultado de encontro de profissionais de diferentes linhas teóricas que têm o afeto como seu ponto de intercessão. 
-        p.paragraph-sp Em setembro, estaremos reunidos em Búzios para falarmos sobre a formação dos vínculos afetivos, os impactos produzidos pelos ambientes nas vivências emocionais, vivenciar afetos através da experiência do sensível e propor reescrever histórias a partir de reformulações afetivas. 
-        p.paragraph-sp Tudo isso para pensar a natureza dos vínculos e seus caminhos. 
-        p.paragraph-sp E claro, queremos que você se afete conosco. 
-        p.paragraph-sp Vem se afetar com a gente!
-        hr
-
-        h2.inner-title Palestrantes
-        .row
-          .col-md-4.staff-image
-            figure
-              img(src="dev/src/images/lp_afeto_palestrante_marco_aurelio.jpg", alt="")
-              figcaption 
-                h1.title Marco Aurélio Mendes
-                p Psicólogo (CRP 05/31952). Terapeuta Cognitivo Certificado pela Federação Brasileira de Terapias Cognitivas (FBTC). Certificação Avançada em Terapia Focada nas Emoções pela York University com Dr. Les Greenberg.
-                //- button(type="button" class="btn btn-primary") Ver mais
-          .col-md-4.staff-image
-            figure
-              img(src="dev/src/images/lp_afeto_palestrante_monica_gouveia.jpg", alt="")
-              figcaption 
-               h1.title Mônica Gouveia
-               p Psicóloga Clínica Existencial Cognitivista, Mestre em Psicologia Social, Master Universidad Camilo José Cela e Master IMF Business School em Neuropsicologia, Inteligências Múltiplas e Mindfulness (em curso).
-              //-  button(type="button" class="btn btn-primary") Ver mais
-          .col-md-4.staff-image
-            figure
-              img(src="dev/src/images/lp_afeto_palestrante_marisa_mendes.jpg", alt="")  
-              figcaption 
-               h1.title Marisa Mendes
-               p Psicóloga Clínica (CRP 05/16481); Mestre em Psicologia Social (UGF); Especialista em Terapia pelo Movimento, Corpo e Subjetivação (Faculdade Angel Vianna);Especializanda em Transtornos Alimentares (PUC Rio).
-              //-  button(type="button" class="btn btn-primary") Ver mais
-
-      .jumbotron.jumbotron-fluid.main-banner.font-ludicrous.text-center.d-flex
-          h2.align-self-center.m-4 Somos movidos por nossos afetos. Afetos estão em todas as partes. A partir deles nos posicionamos no mundo e escrevemos nossas histórias.
-      .container
-        h2.inner-title O Local
-        .row
-          .col-md-12
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10923.483591507924!2d-41.89888687061167!3d-22.760868352150727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9655642bffd8fb%3A0x8fde5a74c94bf844!2sPousada+Dos+Reis!5e0!3m2!1spt-BR!2sbr!4v1527021369154" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            address.hostel-address
-              span Pousada dos Reis
-              p Rua Portal da Ferradura, 30 - Portal da Ferradura
-                <br> Armação dos Búzios, RJ 28950000
-            hr
-        //- h2.inner-title Parceiros 
-        //- .row
-        //-   .col-md-3 
-        //-     img(src="http://via.placeholder.com/250x150", alt="")
-        //-   .col-md-3 
-        //-     img(src="http://via.placeholder.com/250x150", alt="")
-        //-   .col-md-3 
-        //-     img(src="http://via.placeholder.com/250x150", alt="")
-        //-   .col-md-3 
-        //-     img(src="http://via.placeholder.com/250x150", alt="")
-
-      .jumbotron.jumbotron-fluid.timer-banner#js-timer-banner
-        .container
-          h2.inner-title.white Nosso workshop começa em
-          .row.justify-content-lg-center.justify-content-sm-center
-            .col.col-md-auto.col-lg-2.col-12
-              .date-time.days 
-            .col.col-md-auto.col-lg-2.col-6
-              .date-time.hours
-            .col.col-md-auto.col-lg-2.col-6
-              .date-time.minutes
-          hr
-          a(href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank" class="btn btn-call orage") Compre agora
-
-    include includes/footer.pug
+  section.container
+    h2.inner-title O evento
     
-      
+    p.paragraph-sp Somos movidos por nossos afetos. Afetos estão em todas as partes. A partir deles nos posicionamos no mundo e escrevemos nossas histórias. 
+    p.paragraph-sp Diferentes abordagens reconhecem a importância dos afetos para o desenvolvimento do ser humano. Vínculos afetivos são constituídos no início de nossas vidas e estarão presentes ao longo de toda ela influenciando nossas formas de interação com o mundo. 
+    p.paragraph-sp Esse evento é o resultado de encontro de profissionais de diferentes linhas teóricas que têm o afeto como seu ponto de intercessão. 
+    p.paragraph-sp Em setembro, estaremos reunidos em Búzios para falarmos sobre a formação dos vínculos afetivos, os impactos produzidos pelos ambientes nas vivências emocionais, vivenciar afetos através da experiência do sensível e propor reescrever histórias a partir de reformulações afetivas. 
+    p.paragraph-sp Tudo isso para pensar a natureza dos vínculos e seus caminhos. 
+    p.paragraph-sp E claro, queremos que você se afete conosco. 
+    p.paragraph-sp Vem se afetar com a gente!
+    hr
+
+    h2.inner-title Palestrantes
+    .row
+      .col-md-4.staff-image
+        figure
+          img(src="dev/src/images/lp_afeto_palestrante_marco_aurelio.jpg", alt="")
+          figcaption 
+            h1.title Marco Aurélio Mendes
+            p Psicólogo (CRP 05/31952). Terapeuta Cognitivo Certificado pela Federação Brasileira de Terapias Cognitivas (FBTC). Certificação Avançada em Terapia Focada nas Emoções pela York University com Dr. Les Greenberg.
+            //- button(type="button" class="btn btn-primary") Ver mais
+      .col-md-4.staff-image
+        figure
+          img(src="dev/src/images/lp_afeto_palestrante_monica_gouveia.jpg", alt="")
+          figcaption 
+            h1.title Mônica Gouveia
+            p Psicóloga Clínica Existencial Cognitivista, Mestre em Psicologia Social, Master Universidad Camilo José Cela e Master IMF Business School em Neuropsicologia, Inteligências Múltiplas e Mindfulness (em curso).
+          //-  button(type="button" class="btn btn-primary") Ver mais
+      .col-md-4.staff-image
+        figure
+          img(src="dev/src/images/lp_afeto_palestrante_marisa_mendes.jpg", alt="")  
+          figcaption 
+            h1.title Marisa Mendes
+            p Psicóloga Clínica (CRP 05/16481); Mestre em Psicologia Social (UGF); Especialista em Terapia pelo Movimento, Corpo e Subjetivação (Faculdade Angel Vianna);Especializanda em Transtornos Alimentares (PUC Rio).
+          //-  button(type="button" class="btn btn-primary") Ver mais
+
+  .jumbotron.jumbotron-fluid.main-banner.font-ludicrous.text-center.d-flex
+      h2.align-self-center.m-4 Somos movidos por nossos afetos. Afetos estão em todas as partes. A partir deles nos posicionamos no mundo e escrevemos nossas histórias.
+  .container
+    h2.inner-title O Local
+    .row
+      .col-md-12
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10923.483591507924!2d-41.89888687061167!3d-22.760868352150727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9655642bffd8fb%3A0x8fde5a74c94bf844!2sPousada+Dos+Reis!5e0!3m2!1spt-BR!2sbr!4v1527021369154" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        address.hostel-address
+          span Pousada dos Reis
+          p Rua Portal da Ferradura, 30 - Portal da Ferradura
+            <br> Armação dos Búzios, RJ 28950000
+        hr
+    //- h2.inner-title Parceiros 
+    //- .row
+    //-   .col-md-3 
+    //-     img(src="http://via.placeholder.com/250x150", alt="")
+    //-   .col-md-3 
+    //-     img(src="http://via.placeholder.com/250x150", alt="")
+    //-   .col-md-3 
+    //-     img(src="http://via.placeholder.com/250x150", alt="")
+    //-   .col-md-3 
+    //-     img(src="http://via.placeholder.com/250x150", alt="")
+
+  .jumbotron.jumbotron-fluid.timer-banner#js-timer-banner
+    .container
+      h2.inner-title.white Nosso workshop começa em
+      .row.justify-content-lg-center.justify-content-sm-center
+        .col.col-md-auto.col-lg-2.col-12
+          .date-time.days 
+        .col.col-md-auto.col-lg-2.col-6
+          .date-time.hours
+        .col.col-md-auto.col-lg-2.col-6
+          .date-time.minutes
+      hr
+      a(href="https://www.eventbrite.com.br/e/o-afeto-que-habita-em-nos-registration-42867258123" target="_blank" class="btn btn-call orage") Compre agora
+
+  include includes/footer.pug
+  
+    
 
 

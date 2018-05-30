@@ -1,18 +1,24 @@
-head
-  meta(charset="UTF-8")
-  meta(name="viewport", content="width=device-width, initial-scale=1.0")
-  meta(http-equiv="X-UA-Compatible", content="ie=edge")
-  title O afeto que habita em nós
+// Carrega os mixins para serem usados nas paginas especificas.
+include ./header.pug
+include ./nav-interna.pug
 
-  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
-  link(rel="stylesheet", href="dev/src/styles/css/application.css")
-  link(rel="stylesheet", href="dev/src/fonts/fonts.css")
-  link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.0.13/css/all.css")
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title O afeto que habita em nós
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  script(async src="https://www.googletagmanager.com/gtag/js?id=UA-119988824-1")
-  script.
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-119988824-1');
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+    link(rel="stylesheet", href="dev/src/styles/css/application.css")
+    link(rel="stylesheet", href="dev/src/fonts/fonts.css")
+    link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.0.13/css/all.css")
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-119988824-1")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-119988824-1');

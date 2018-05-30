@@ -19,18 +19,25 @@ hr {
   font-weight: 300;
   padding: 2rem 0;
 
-  .navbar-nav .nav-link {
-    color: #ffffffbd;
-    margin-right: 5rem;
+  .navbar-nav {
+    .nav-link {
+      color: #ffffffbd;
+      margin-right: 5rem;
 
-    &:hover, &:active, &:focus {
-      color:#FD8D59
+      &:hover, &:active, &:focus {
+        color:#FD8D59
+      }
     }
   }
   .navbar-brand {
-    font-size: 1.3rem;
+    font-size: 1.75rem;
+    text-transform: initial !important;
   }
-  
+
+  &.active {
+    background-color: #704e84f5;
+    color: #fff;
+  }
 }
 
 // Components
