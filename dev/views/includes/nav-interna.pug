@@ -2,7 +2,7 @@ mixin nav-interna(activeUrl)
   //- navegação 
   header.header
     nav.navbar.navbar-dark.navbar-expand-lg.navbar-new.active
-      a.navbar-brand.d-sm-block.font-ludicrous.ml-lg-3 O afeto que habita em nós!
+      a(href="./").navbar-brand.d-sm-block.font-ludicrous.ml-lg-3 O afeto que habita em nós!
       button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
         span.navbar-toggler-icon
       #navbarSupportedContent.collapse.navbar-collapse
@@ -11,9 +11,9 @@ mixin nav-interna(activeUrl)
             var currentUrl = activeUrl
             var menuItems = [
               { name: "O evento", href: "index.html" },
-              { name: "Palestrantes", href: "palestrantes.html" },
+              { name: "Palestrantes", href: "#" },
               { name: "Parceiros", href: "parceiros.html" },
-              { name: "Blog", href: "blog.html" },
+              { name: "Blog", href: "#" },
             ]
           each url in menuItems
             li.nav-item(class={active: currentUrl === url.href})

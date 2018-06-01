@@ -7,7 +7,7 @@
     color: #fff; }
     .header .navbar-new {
       text-align: center;
-      padding: 1rem 0; }
+      padding: 1rem 2rem; }
       .header .navbar-new a.nav-link {
         margin-right: 0; }
       .header .navbar-new .navbar-brand {
@@ -22,6 +22,15 @@ body {
 hr {
   margin-top: 4rem;
   border-top: 1px solid #dcdcdc; }
+
+p {
+  font-weight: 300;
+  line-height: 23px; }
+
+a {
+  color: #745387; }
+  a:hover {
+    color: #6f4f81; }
 
 .navbar-new {
   font-size: 0.9rem;
@@ -115,6 +124,9 @@ hr {
       font-weight: 300;
       color: #fff; }
 
+.partner {
+  margin-bottom: 6rem; }
+
 .footer {
   background-color: #ededed;
   padding: 2rem 0; }
@@ -145,6 +157,11 @@ hr {
   font-weight: 300;
   font-size: 1.12em;
   line-height: 23px; }
+
+.special-titles {
+  font-weight: 300;
+  color: #745387;
+  letter-spacing: -1px; }
 
 .inner-title {
   font-size: 32px;

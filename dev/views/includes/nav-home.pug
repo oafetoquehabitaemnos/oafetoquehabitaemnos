@@ -12,9 +12,9 @@ mixin nav(activeUrl, second)
               var currentUrl = activeUrl
               var menuItems = [
                 { name: "O evento", href: "index.html" },
-                { name: "Palestrantes", href: "palestrantes.html" },
+                { name: "Palestrantes", href: "#" },
                 { name: "Parceiros", href: "parceiros.html" },
-                { name: "Blog", href: "blog.html" },
+                { name: "Blog", href: "#" },
               ]
             each url in menuItems
               li.nav-item(class={active: currentUrl === url.href})

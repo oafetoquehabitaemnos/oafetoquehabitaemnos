@@ -10,6 +10,16 @@ hr {
   margin-top: 4rem;
   border-top: 1px solid #dcdcdc;
 }
+p {
+  font-weight: 300;
+  line-height: 23px;
+}
+a {
+  color: #745387;
+  &:hover{
+    color: darken(#745387, 2)
+  }
+}
 
 
 // navbar
@@ -138,6 +148,10 @@ hr {
   }
 }
 
+.partner {
+  margin-bottom: 6rem;
+}
+
 
 .footer {
   background-color: #ededed;
@@ -183,6 +197,11 @@ hr {
   font-size: 1.12em;
   line-height: 23px;
 }
+.special-titles {
+  font-weight: 300;
+  color: #745387;
+  letter-spacing: -1px;
+}
 
 
 .inner-title {
@@ -192,16 +211,7 @@ hr {
   color: #8a689d;
   padding-bottom: 1rem;
   margin: 3rem 0;
-  // &::after {
-  //   content: "";
-  //   border-bottom: 1px solid #8a689d;
-  //   width: 177px;
-  //   height: 3px;
-  //   display: inline-block;
-  //   position: absolute;
-  //   bottom: -10px;
-  //   left: 42%;
-  // }
+  
   &.white {
     color: #fff;
   }
