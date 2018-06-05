@@ -105,6 +105,11 @@ a {
 
 
 .staff-image {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+  }
   figcaption {
     font-size: 14px;
     color: #4f4f4f;
@@ -148,8 +153,18 @@ a {
   }
 }
 
-.partner {
-  margin-bottom: 6rem;
+.partners-index {
+  img {
+    width: 155px;
+  }
+}
+.partner-inter {
+ margin-bottom: 6rem;
+ ul {
+  padding-left: 1rem;
+  font-weight: 300;
+  line-height: 23px;
+ }
 }
 
 

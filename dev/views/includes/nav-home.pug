@@ -14,7 +14,6 @@ mixin nav(activeUrl, second)
                 { name: "O evento", href: "index.html" },
                 { name: "Palestrantes", href: "#" },
                 { name: "Parceiros", href: "parceiros.html" },
-                { name: "Blog", href: "#" },
               ]
             each url in menuItems
               li.nav-item(class={active: currentUrl === url.href})
