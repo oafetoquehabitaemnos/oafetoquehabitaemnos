@@ -1,0 +1,34 @@
+extends ./templates/template-interno.pug
+block  nav
+  +nav-interna("parceiros.html", true)
+block content
+  section.container
+    h2.inner-title Palestrantes
+    article.row.partner-inter
+      .col-md-5
+         img.img-fluid.img-thumbnail(src="dev/src/images/lp_afeto_palestrante_marco_aurelio.jpg", alt="")
+      .col-md-7
+        h2.special-titles Marco Aurélio Mendes
+        p Psicólogo (CRP 05/31952); terapeuta cognitivo certificado pela Federação Brasileira de Terapias Cognitivas (FBTC); certificação avançada em Terapia Focada nas Emoções pela York University com Dr. Les Greenberg; membro da Sociedade Internacional de Terapia Focada nas Emoções (ISEFT) e da Diretoria da Associação de Terapias Cognitivas do Estado do Rio de Janeiro (ATC-Rio); Mestre em Clínica Médica pelo Instituto de Pediatria (IPPMG) da Universidade Federal do Rio de Janeiro (UFRJ); professor de pós-graduação em TCC e da formação em Terapia do Esquema do Instituto WP; professor e supervisor de TCC do Centro Universitário Celso Lisboa (RJ).
+
+        p Atualmente é professor de pós-graduação em TCC e da formação em Terapia do Esquema do Instituto WP; professor e supervisor de Terapia Cognitivo Comportamental do Centro Universitário Celso Lisboa (RJ).       www.facebook.com/pousadaaguasclarasembuzios.
+
+    article.row.partner-inter
+      .col-md-5
+        img.img-fluid.img-thumbnail(src="dev/src/images/lp_afeto_palestrante_monica_gouveia.jpg", alt="")
+      .col-md-7
+        h2.special-titles Mônica Gouveia
+        p Psicóloga (CRP 05/16042); terapeuta existencial cognitivista; Mestre em Psicologia Social; Master Universidad Camilo José Cela e Master IMF Business School em Neuropsicologia, Inteligências Múltiplas e Mindfulness (em curso). Especialista em Teoria Cognitivo Comportamental, Psicopedagogia e Ludopedagogia Institucional e Clínica, e em Psicologia do Tráfego Aéreo, Marítimo e Rodoferroviário.
+
+        p Experiência profissional de mais de 25 anos com avaliação psicológica, treinamento, desenvolvimento de projetos focados no bem estar social e na promoção da qualidade dos vínculos afetivos na escola, no trabalho e na família. Psicóloga voluntária em projetos sociais, integrante do projeto Canoagem Olímpica e Paralímpica do preparador Ricardo Maia Freitas; autora do livro: A Caminhada Terapêutica - 3 Pulinhos para Felicidade.
+
+    article.row.partner-inter
+      .col-md-5
+        img.img-fluid.img-thumbnail(src="dev/src/images/lp_afeto_palestrante_marisa_mendes.jpg", alt="")
+      .col-md-7
+        h2.special-titles Marisa F. Mendes
+        p Psicóloga (CRP 05/16481); Mestre em Psicologia Social (UGF), Especialista em Terapia pelo Movimento, Corpo e Subjetivação (Faculdade Angel Vianna); Especialista em Psicologia Clínica (CRP/RJ), Terapeuta Corporal Reichiana (CEREICH), Pós Graduanda em Transtornos Alimentares - PUC-Rio, integrante de diferentes coletivos de estudos psicanalíticos.
+
+        p Sua formação pluralista permite atuar no campo da psicologia clínica individual e coletiva há mais de 20 anos com diferentes populações, em uma prática clínica associada a diferentes esferas de conhecimentos em prol da saúde integral, saúde coletiva, saúde do trabalhador, gestão de pessoas, bem estar e qualidade de vida, por meio de pesquisas sobre corpo, movimento, terapias complementares, cultura, organizações pessoal e profissional.
+block footer
+  include ./includes/footer.pug
