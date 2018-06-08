@@ -57,7 +57,10 @@ a {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; }
   .main-call .title-work {
     font-size: 32px;
     letter-spacing: 22.9px;
@@ -93,6 +96,7 @@ a {
 
 .staff-image img {
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   height: 350px; }
 

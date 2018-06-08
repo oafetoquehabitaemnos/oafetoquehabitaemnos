@@ -60,6 +60,11 @@ a {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+    
     
     .title-work {
       font-size: 32px;
@@ -107,7 +112,8 @@ a {
 .staff-image {
   img {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 350px;
   }
   figcaption {
