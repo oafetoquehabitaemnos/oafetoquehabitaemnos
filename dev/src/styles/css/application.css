@@ -138,7 +138,7 @@ a {
 
 .partner-inter {
   margin-bottom: 6rem; }
-  .partner-inter ul {
+  .partner-inter ul, .partner-inter ol {
     padding-left: 1rem;
     font-weight: 300;
     line-height: 23px; }
