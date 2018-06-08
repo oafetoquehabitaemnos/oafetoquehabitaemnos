@@ -131,6 +131,9 @@ a {
       font-size: 14px;
       border: none;
       padding: 0.3rem 1.5rem;
+      &:active,&:hover,&:focus {
+        background: #f9763e !important;
+      }
     }
   }
 }
@@ -272,4 +275,9 @@ a {
     background: #FD8D59;
     color: #fff;
   }
+}
+.btn.btn-more{
+  border-radius: 14px;
+  background-color: #fd8d5e;
+  color: #fff;
 }
