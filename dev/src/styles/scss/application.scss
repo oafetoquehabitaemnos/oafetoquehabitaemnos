@@ -226,7 +226,10 @@ a {
   color: #745387;
   letter-spacing: -1px;
 }
-
+.paragraph-discount {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
 
 .inner-title {
   font-size: 32px;
@@ -251,7 +254,7 @@ a {
   border: none;
   font-size: 1.12rem;
   padding: 0.6rem 5rem;
-  margin: 2.5rem;
+  margin: 2rem 2rem 0.8rem;
   color: #fff;
 
   &:active,&:hover,&:focus {
