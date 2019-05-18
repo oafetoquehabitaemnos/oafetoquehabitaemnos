@@ -33,27 +33,27 @@ a {
     color: #6f4f81; }
 
 .navbar-new {
-  font-size: 0.9rem;
+  font-size: 1em;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 500;
   padding: 2rem 0; }
   .navbar-new .navbar-nav .nav-link {
-    color: #ffffffbd;
+    color: #ffffff;
     margin-right: 5rem; }
     .navbar-new .navbar-nav .nav-link:hover, .navbar-new .navbar-nav .nav-link:active, .navbar-new .navbar-nav .nav-link:focus {
-      color: #FD8D59; }
+      color: #ffffff; }
   .navbar-new .navbar-brand {
-    font-size: 1.75rem;
+    font-size: 2rem;
     text-transform: initial !important; }
   .navbar-new.active {
-    background-color: #704e84f5;
+    background-color: #F49256;
     color: #fff; }
 
 .main-call {
   min-height: 650px;
   width: 100%;
   padding-top: 0;
-  background: url("../../images/lp_afeto_01.jpg") no-repeat center;
+  background: url("../../images/background-oahn20192.jpg") no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -71,15 +71,16 @@ a {
     margin-top: 2rem; }
   .main-call .title-oafeto {
     font-family: 'ludicrous-regular' !important;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 0.75;
     letter-spacing: -2px;
-    color: #363636;
-    margin: 0.8rem 0 2rem 0; }
+    color: #ffffff;
+    margin: 4em 0 1rem 0; }
   .main-call .date {
     display: block;
     font-size: 20px;
     line-height: 1.25;
+    color:#ffffff;
     letter-spacing: 3px;
     text-transform: uppercase; }
 
@@ -182,8 +183,9 @@ a {
   letter-spacing: -1px; }
 
 .paragraph-discount {
-  font-weight: 700;
-  font-size: 0.8rem; }
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #ffffff; }
 
 .inner-title {
   font-size: 32px;
@@ -200,9 +202,9 @@ a {
   background-color: #89679b;
   text-transform: uppercase;
   border: none;
-  font-size: 1.12rem;
+  font-size: 1rem;
   padding: 0.6rem 5rem;
-  margin: 2rem 2rem 0.8rem;
+  margin: 1rem;
   color: #fff; }
   .btn.btn-call:active, .btn.btn-call:hover, .btn.btn-call:focus {
     background: #704e84 !important; }
@@ -212,13 +214,13 @@ a {
       background: #f9763e !important; }
 
 .btn.btn-ticket {
-  border: solid 2px #FD8D59;
-  color: #FD8D59;
+  border: solid 1px #ffffff;
+  color: #ffffff;
   border-radius: 25px;
   min-width: 150px; }
   .btn.btn-ticket:hover {
-    background: #FD8D59;
-    color: #fff; }
+    background: #ffffff;
+    color: #F49256; }
 
 .btn.btn-more {
   border-radius: 14px;
