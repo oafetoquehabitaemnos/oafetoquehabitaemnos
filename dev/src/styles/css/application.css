@@ -25,7 +25,7 @@ hr {
 
 p {
   font-weight: 300;
-  line-height: 23px; }
+  line-height: 25px; }
 
 a {
   color: #745387; }
@@ -48,17 +48,19 @@ a {
   .navbar-new.active {
     background-color: #F49256;
     color: #fff; }
-
+.jumbotron{  
+  margin-bottom:0 !important;
+}
 .main-call {
+  padding-top: 0;
+  /*height:100vh;*/
   min-height: 650px;
   width: 100%;
-  padding-top: 0;
   background: url("../../images/background-oahn20192.jpg") no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
   .main-call .title-work {
@@ -94,6 +96,41 @@ a {
   -o-background-size: cover; }
   .main-banner h2 {
     font-size: 49px; }
+.slide2{
+  background-color: #89679b;
+  color:#ffffff;
+}
+.slide2 a {
+  color: #fff;
+  text-decoration-line: underline;
+}
+
+.slide3{
+  color:#ffffff;
+  background: url("../../images/barbora-polednova-1265868-unsplash.jpg") no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+.slide3 .title-oafeto {
+    font-family: 'ludicrous-regular' !important;
+    font-size: 50px;
+    line-height: 0.75;
+    letter-spacing: -2px;
+    color: #ffffff; }
+
+.slide3 a {
+  color: #ffffff;
+}
+
+.slide4{}
+
+
 
 .staff-image img {
   width: 100%;
@@ -188,18 +225,18 @@ a {
   color: #ffffff; }
 
 .inner-title {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: lighter;
   text-align: center;
   color: #8a689d;
-  padding-bottom: 1rem;
-  margin: 3rem 0; }
+  text-transform: uppercase;
+  margin:0 0 1.5em 0; }
   .inner-title.white {
     color: #fff; }
 
 .btn.btn-call {
   border-radius: 30px;
-  background-color: #89679b;
+  background-color:#704e84;
   text-transform: uppercase;
   border: none;
   font-size: 1rem;
@@ -207,7 +244,7 @@ a {
   margin: 1rem;
   color: #fff; }
   .btn.btn-call:active, .btn.btn-call:hover, .btn.btn-call:focus {
-    background: #704e84 !important; }
+    background: #89679b !important; }
   .btn.btn-call.orage {
     background-color: #fd8d5e; }
     .btn.btn-call.orage:active, .btn.btn-call.orage:hover, .btn.btn-call.orage:focus {
