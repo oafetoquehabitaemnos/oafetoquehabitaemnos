@@ -78,9 +78,16 @@ a {
     letter-spacing: -2px;
     color: #ffffff;
     margin: 4em 0 1rem 0; }
+  .main-call h2 {
+    display: block;
+    font-size: 22px;
+    line-height: 1.25;
+    color:#ffffff;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
   .main-call .date {
     display: block;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 1.25;
     color:#ffffff;
     letter-spacing: 3px;
@@ -128,6 +135,14 @@ a {
   color: #ffffff;
 }
 
+.slide3 .list-group li{
+  background-color:rgba(255, 255, 255, 0.2);
+}
+
+.slide3 .list-goup .badge-primary {
+  ba
+}
+
 .slide4{
   background-color:#ffffff; 
 }
@@ -137,6 +152,22 @@ a {
 
 .slide4 h1.title 
 {font-size: 26px !important;}
+
+
+.slide5{
+  color:#ffffff;
+  background: url("../../images/a-r-t-paola-589990-unsplash.jpg") no-repeat top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
+.slide5 .inner-title, .slide5 a {
+  color: #ffffff !important;
+}
 
 .staff-image img {
   width: 100%;
@@ -164,7 +195,6 @@ a {
 .timer-banner {
   background: -webkit-gradient(linear, left top, right top, from(#7b63a2), to(#8a689d));
   background: linear-gradient(to right, #7b63a2, #8a689d);
-  margin-top: 7rem;
   margin-bottom: 0;
   text-align: center; }
   .timer-banner .inner-title {
