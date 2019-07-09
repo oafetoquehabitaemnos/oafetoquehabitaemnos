@@ -302,20 +302,14 @@ img.guest {
     color: #fff; }
 
 .btn.btn-call {
-  border-radius: 30px;
-  background-color:#704e84;
-  text-transform: uppercase;
+  border-radius: 5px;
+  background-color:#0D8547;
   border: none;
-  font-size: 1rem;
-  padding: 0.6rem 5rem;
+  font-weight: bold;
+  font-size: .9rem;
+  padding: 1rem 7rem;
   margin: 1rem;
   color: #fff; }
-  .btn.btn-call:active, .btn.btn-call:hover, .btn.btn-call:focus {
-    background: #89679b !important; }
-  .btn.btn-call.orage {
-    background-color: #fd8d5e; }
-    .btn.btn-call.orage:active, .btn.btn-call.orage:hover, .btn.btn-call.orage:focus {
-      background: #f9763e !important; }
 
 .btn.btn-ticket {
   border: solid 1px #ffffff;
