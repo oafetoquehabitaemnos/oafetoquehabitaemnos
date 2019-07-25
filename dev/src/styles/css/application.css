@@ -109,6 +109,9 @@ a {
   .main-call h2{ font-size: 9px; }
 }
 
+@media only screen and (min-width : 620px) {
+  .main-call h2{ font-size: 20px; }
+}
   .main-call .date {
     display: block;
     font-size: 13px;
@@ -356,4 +359,3 @@ img.guest {
 .my-float{
   margin-top:16px;
 }
-
