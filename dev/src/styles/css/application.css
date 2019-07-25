@@ -201,7 +201,8 @@ max-width: 600px;}
 .staff-image img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover; }
+  object-fit: cover;
+  object-position: top; }
 
 img.guest {
   width: 100%;
